@@ -148,7 +148,7 @@ header .navbar-brand img {
 }
 /* The Google Effect */
 
-#the-google-effect {
+.the-google-effect {
     background: #000 url("../assets/google-effect-bg.png") top center;
     background-size: 100%;
     padding-bottom: 140px;
@@ -360,7 +360,7 @@ footer .nav-tabs > .nav-item > .nav-link.active {
     footer .nav-tabs .nav-item>.nav-link {
         margin-bottom: 5px;
     }
-    #the-google-effect {
+    .the-google-effect {
         background-size: cover;
         background-repeat: no-repeat;
     }
