@@ -360,6 +360,10 @@ footer .nav-tabs > .nav-item > .nav-link.active {
     footer .nav-tabs .nav-item>.nav-link {
         margin-bottom: 5px;
     }
+    #the-google-effect {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 
