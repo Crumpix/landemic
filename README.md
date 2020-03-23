@@ -1,2 +1,0 @@
-# landemic
-Landemic Website
