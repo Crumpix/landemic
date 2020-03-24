@@ -57,37 +57,37 @@ header .navbar-brand img {
 }
 
 /* Mast Head*/
-#mast-head {
+.mast-head {
     background: #000 url('../assets/mast-head.png') bottom center;
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 300px;
     padding-bottom: 130px;
 } 
-#mast-head a {
+.mast-head a {
     font-size: 83px;
     color: white;
     line-height: 83px;
 }
-#mast-head a:hover {
-    color: #272c6e;
+.mast-head a:hover {
+    color: rgb(70, 66, 243);
 }
-#mast-head a i {
+.mast-head a i {
     margin-bottom: 28px;
 }
-#mast-head h1 {
+.mast-head h1 {
     font-size: 46px;
     text-transform: uppercase;
     max-width: 410px;
     margin: auto;
     margin-bottom: 26px;
 }
-#mast-head p.lead {
+.mast-head p.lead {
     font-size: 20px;
     margin-bottom: 26px;
     line-height: 20px;
 }
-#mast-head p {
+.mast-head p {
     max-width: 643px;
     margin: auto;
 }
@@ -162,8 +162,40 @@ footer {
     padding-top: 155px;
     padding-bottom: 195px;
 }
-
-
+footer .col-md-3 h1 {
+    font-size: 1.8rem;
+}
+footer .col-md-3 p {
+    font-size: 19px;
+}
+footer .col-md-3 ul {
+    list-style: none;
+}
+footer .col-md-3 ul li {
+    font-size: 16px;
+    color: white;
+}
+footer .col-md-3 ul li:hover {
+    font-size: 16px;
+    color: rgb(70, 66, 243);
+    cursor: pointer;
+}
+footer .col-md-3 a {
+    font-size: 30px;
+    color: white;
+}
+footer .col-md-3 a:hover {
+    color: rgb(70, 66, 243);
+    cursor: pointer;
+}
+footer .col-md-3 .form-group label {
+    color: white;
+    font-size: 1.8rem;
+}
+footer .col-md-3 .btn-primary {
+    background-color: rgb(70, 66, 243);
+    border-color: rgb(70, 66, 243);
+}
 /* Tabs */
 footer .nav-item {
     width: 225px;
@@ -342,6 +374,9 @@ footer .card .card-header {
 [data-background-color]:not([data-background-color="gray"]) .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
     color: #FFFFFF;
 }
+footer .card .card-header h4 {
+    font-size: 1.2rem;
+}
 footer .nav-tabs > .nav-item > .nav-link.active { 
     background-color: black !important;
     border: solid 3px #4642f3 !important;
@@ -363,6 +398,9 @@ footer .nav-tabs > .nav-item > .nav-link.active {
     .the-google-effect {
         background-size: cover;
         background-repeat: no-repeat;
+    }
+    .mast-head {
+        background-size: cover;
     }
 }
 
